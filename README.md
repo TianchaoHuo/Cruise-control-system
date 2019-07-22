@@ -14,26 +14,6 @@ Design a cruise controller for a BMW 335i car. The specifications of this vehicl
 
 
 
-## Design process
-
-
-### Proportional control
-
-
-### Proportional and integral control
-Basing on the above design, we are currently introducing integral control in this section. Integral control in a PID controller is the sum of the instantaneous error over time and gives the accumulated offset that should have been corrected previously. The integral term accelerates the movement of the movement of the process towards reference value and eliminates the residual steady-state error that occurs with a pure proportional controller.
-
-<div align=center><img src = "An-Introduction-of-Cruise-Control-System\PI control.jpg"></div>
-
-
-
-
-
-
-
-
-
-
 
 ## Conclusions
 This article mainly discusses the design of a cruise controller, containing linearization for the non-linear model, the introduction of PID control, the designing process of cruise controller. Basically, we start from P control method and analyze the performance. However, there is a steady-state error so that we move to design PI control, which is effective to eliminate the steady-state error. It also mathematically analyzes why we select proportional and integral control method, rather than pure proportional control. Moreover, examinations under several conditions are provided to test the performance of the designed controller, for example, changing target speed to another,  suddenly changing from flat ground to steep uphill slope.  From these examinations, we understand that how the mass influences the response of the controller and why we cannot select a high value of proportional gain.
