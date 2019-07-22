@@ -4,7 +4,7 @@
 This article presents the design process of the cruise controller and briefly analysis the performance of different control approaches including P, PI, and PID. A robust cruise control system is critical not only in automobile fields but also in manufacturing fields and the aerospace industry. Using MATLAB to test the outcome of different control methods can visually and directly validate the feedback control model.
 <!--more-->
 
-repo: https://github.com/TianchaoHuo/Cruise-control-system
+blog: https://tianchaohuo.github.io/2019/07/22/An-Introduction-of-Cruise-Control-System/
 
 ## Objective
 Design a cruise controller for a BMW 335i car. The specifications of this vehicle are:
